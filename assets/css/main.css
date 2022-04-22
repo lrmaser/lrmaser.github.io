@@ -2382,10 +2382,10 @@ input, select, textarea {
 			text-decoration: none;
 			display: inline-block;
 			margin: 0 0 1.6875em 0;
-			padding: 0.35em 0 0 3.5em;
+			padding: 0.35em 0 0 0;
 			position: relative;
 			vertical-align: top;
-			width: 48%;
+			width: 33%;
 		}
 
 			ul.feature-icons li:before {
@@ -2414,6 +2414,22 @@ input, select, textarea {
 				top: 0;
 				width: 2.5em;
 			}
+
+/* Skill Icons */
+
+.skill-icon {
+	align-items: center;
+	display: flex;
+}
+
+.skill-icon img {
+	height: 40px;
+	width: 40px;
+}
+
+.skill-icon span {
+	margin-left: 10px;
+}
 
 /* Icons */
 
